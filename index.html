@@ -38,15 +38,15 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Node.js</h1>
-					<h3>med venner</h3>
+					<h4>Lag en webapp med</h4>
+					<h2>NodeJS og Express</h2>
 					<p>
-						<small>Magnus Westergaard og Trude Martinsen</small>
+						<small>Magnus Westergaard og Trude Martinsen, Steria</small>
 					</p>
 				</section>
 
 				<section>
-					<h3>Installer node.js</h3>
+					<h2>Installer NodeJS</h2>
 					<a href="http://nodejs.org">http://nodejs.org</a>
 					
 
@@ -58,20 +58,13 @@
 				<section>
 					<h3>Agenda</h3>
 					<ul>
-						<li>Noe lurt</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Gjør det selv.. </li>
+						<li>Introduksjon</li>
+						<li>Node, Express og Jade med eksempler</li>
+						<li>Lag en webapp selv!</li>
+						<li>Pizza</li>
+						<li>Øl!</li>
 					</ul>
 
-					<aside class="notes">
-						Notater....
-					</aside>
-				</section>
-
-				<section>
-					<h3>Javascript</h3>
-					<p>- laget for browser  - oppsving de siste årene</p>
 
 					<aside class="notes">
 						Notater....
@@ -79,8 +72,63 @@
 				</section>
 
 				<section>
-					<h3>Node</h3>
-					<p>- plattform for å kjøre js utenfor browseren - googles v8 + standardbibliotek</p>
+					<section id="fragments">
+						<h2>Javascript</h2>
+						<ul>
+							<li class="fragment">Laget av Brendan Eich på midten av 90-tallet</li>
+							<li class="fragment">C-lignende syntaks</li>
+							<li class="fragment">Mest brukt for skripting i nettleser</li>
+						</ul>
+					</section>
+
+					<aside class="notes">
+						JavaScript opprinnelig laget hos Netscape
+						Laget for å være enkelt
+						Kom også raskt mulighet for serverside skripting med JS
+					</aside>
+				</section>
+
+				<section>
+					<p>Hadde lenge et litt dårlig rykte ...</p>
+					<p>
+						<a href="http://hscripts.com/scripts/JavaScript/title-scrol.php">Title scroll</a>
+					</p>
+					<p>
+						<a href="http://www.javascriptkit.com/script/script2/cursortrail.shtml">Cursor trail</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>AJAX</h2>
+					<a href="http://www.devbridge.com/projects/autocomplete/jquery/">Autocomplete</a>
+
+					<aside class="notes">
+						Gjorde det mulig å lage mer dynamiske nettsider
+						Endre innhold på en side uten å laste den på nytt
+						Populariteten rundt JS økte -> mer arbeid ble gjort -> rammeverk, best practices
+					</aside>
+				</section>
+
+				<section>
+					<section id="fragments2">
+						<h3>Node</h3>
+						<p class="fragment">Laget av Ryan Dahl i 2009</p>
+						<p class="fragment">Plattform som bruker JS som skriptespråk</p>
+						<p class="fragment">Bygget rundt Googles V8 JS-motor</p>
+					</section>
+
+					<aside class="notes">
+						V8 er JS-motoren brukt i Chrome
+					</aside>
+				</section>
+
+				<section>
+					<section id="fragments3">
+						<h3>Node</h3>
+						<p class="fragment">Kan kjøre JS utenfor nettleseren</p>
+						<p class="fragment">Innebygd HTTP-server</p>
+						<p class="fragment">Godt egnet til webapper</p>
+					</section>
 
 					<aside class="notes">
 						Notater....
@@ -96,19 +144,26 @@
 				</section>
 
 				<section>
-					<p>- økte popularitet -> etterhvert et stort økosystem rundt</p>
+					<section id="fragments4">
+						<h3>Node</h3>
+						<p class="fragment">Populariteten har bare økt siden</p>
+						<p class="fragment">npm - package manager</p>
+						<p class="fragment">Lett å bygge på</p>
+					</section>
 
 					<aside class="notes">
-						Notater
+						I bruk hos LinkedIn, Microsoft, ...
 					</aside>
 				</section>
 
 				<section>
 					<h3>Webapp</h3>
-					<p>- nettleser som klient- server- evt database</p>
+					<ul>
+						<li>Brukergrensesnitt i nettleseren</li>
+						<li>Logikk og tilstand på server</li>
 
 					<aside class="notes">
-						Notater
+						Evt persistering i database ...
 					</aside>
 				</section>
 
