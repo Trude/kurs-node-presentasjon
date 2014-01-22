@@ -241,21 +241,43 @@
 
 				<section>
 					<h3>Hva er mastermind?</h3>
-					<p>Fire farger er skjult</p>
-					<p>Målet er å gjette riktig farge og posisjon</p>
-					<p>Får tilbakemelding etter hver gjetning</p>
-					<p>Gjett riktig på færrest mulig forsøk!</p>
+					<img class="fragment" src="http://chrisglass.com/things/img/games/mastermind_xl.jpg"/>
 
 					<aside class="notes">
-						Notater
+						Fire farger er skjult
+						Målet er å gjette riktige farger på riktig posisjon
+						Får tilbakemelding etter hver gjetning
+						Gjett alle riktig på færrest mulig forsøk
 					</aside>
 				</section>
 
 				<section>
-					<h3>Tips til fremgangsmåte</h3>
-					<p>Lagre alle forsøk som kommer fra nettleseren</p>
-					<p>Beregn antall riktige farger, posisjoner</p>
-					<p>Send tilbake antall riktige farger, posisjoner</p>
+					<h3>Utgangspunkt</h3>
+
+					<aside class="notes">
+						Ta opp koden og vis.
+					</aside>
+				</section>
+
+				<section>
+					<h3>Mastermind</h3>
+					<ol>
+						<li class="fragment">Lagre et forsøk og send det tilbake til klienten</li>
+						<li class="fragment">Finn ut antall i rett farge med rett plassering og send dette tilserveren</li>
+						<li class="fragment">Finn ut antall i rett farge med feil plassering og send dette til serveren</li>
+						<li class="fragment">Når man har klart det, implementer mulighet for å starte på nytt</li>
+					</ol>
+
+					<p class="fragment">Annet</p>
+					<ul>
+						<li class="fragment">Legg til flere farger</li>
+						<li class="fragment">Lag tilfeldig fasit hver gang spillet startes på nytt</li>
+						<li class="fragment">Implementer at spilleren setter opp fasit</li>
+					</ul>
+
+					<aside class="notes">
+						
+					</aside>
 				</section>
 
 				<section>
